@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Eagle Repairs | contact page</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!--Favicon-->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link href="css/responsive.css" rel="stylesheet">
+</head>
+
+
+<body>
+<div class="page-wrapper">  
+    
+
+    <!-- .preloader -->
+    <div class="preloader"></div>
+    <!-- /.preloader -->
+
+    <div id="header-container"></div>
+
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading footer:', error));
+    </script>
+
+
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url(images/background/5.jpg);">
+        <div class="container">
+            <div class="title-text text-center">
+                <h1>contact us</h1>
+            </div>           
+        </div>
+    </section>
+    <!--End Page Title-->
+
+
+    <!--Title menu-->
+    <section class="title-menu">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">home<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                <li>contact us</li>
+            </ul>
+        </div>
+    </section>
+    <!--End Title menu-->
+
+
+    <!--contact-lacation-->
+    <section class="contact-lacation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="item text-center">
+                        <i class="flaticon-technology"></i>
+                        <h6>Phone Number</h6>
+                        <p>631.676.2707 </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="item text-center">
+                        <i class="flaticon-message"></i>
+                        <h6>Email Us</h6>
+                        <p>Eaglerepairsinc@gmail.com </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="item text-center">
+                        <i class="flaticon-placeholder"></i>
+                        <h6>Lacation</h6>
+                        <p>600 Portion Rd Unit #18, <br> Ronkonkoma, NY 11779</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End contact-lacation-->
+
+
+    <!--contact-section-->
+    <section class="contact-section style-two">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Get in Touch</h3>
+                <p>If you have any questions or would like to book a pickup, feel free to contact us. <br>We’re here to make your repair experience easy and convenient</p>
+            </div>
+            <div class="default-form-area">
+                <form method="post" action="index.html" class="subscribe-form default-form">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <textarea placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="form-group text-center">
+                                <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                                <button type="submit" class="btn-style-one" data-loading-text="Please wait...">Send Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--End contact-section-->
+
+
+    <!--Start Google map area-->
+    <!-- <section class="google-map-area">
+        <div class="container-fullwidth">
+            <div 
+                class="google-map" 
+                id="contact-google-map" 
+                data-map-lat="40.8233" 
+                data-map-lng="-73.1049" 
+                data-icon-path="images/icons/map-marker.png" 
+                data-map-title="Eagle Repairs" 
+                data-map-zoom="12"
+                data-markers='{
+                    "marker-1": [44.799501, -106.951309, "<h4>Sheridan School Special Education</h4><p>201 N Connor St Sheridan, WY 82801</p>","images/icons/map-marker.png"]
+                }'>
+            </div>                    
+        </div>
+    </section> -->
+    <!--End Google map area-->  
+
+
+
+
+    <div id="footer-container"></div>
+
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading footer:', error));
+    </script>
+
+
+</div>
+
+<!--End pagewrapper-->
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target=".header-top"><span class="icon fa fa-long-arrow-up"></span></div>
+
+<script src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/owl.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/mixitup.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/jquery.appear.js"></script>
+<script src="js/jquery.countTo.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/timePicker.js"></script>
+
+<!-- gmap helper -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
+<!--gmap script-->
+<script src="js/gmaps.js"></script>
+<script src="js/map-helper.js"></script>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>

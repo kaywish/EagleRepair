@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Eagle Repairs | service page</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!--Favicon-->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link href="css/responsive.css" rel="stylesheet">
+</head>
+
+
+<body>
+<div class="page-wrapper">  
+    
+
+    <!-- .preloader -->
+    <div class="preloader"></div>
+    <!-- /.preloader -->
+
+
+   
+    <div id="header-container"></div>
+
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading footer:', error));
+    </script>
+   
+
+
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url(images/background/5.jpg);">
+        <div class="container">
+            <div class="title-text text-center">
+                <h1>our service</h1>
+            </div>           
+        </div>
+    </section>
+    <!--End Page Title-->
+
+
+    <!--Title menu-->
+    <section class="title-menu">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">home<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                <li>our service</li>
+            </ul>
+        </div>
+    </section>
+    <!--End Title menu-->
+
+
+    <!--Service Tab-->
+    <section class="service-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Our <span>Services</span></h3>
+            </div>
+            <div class="row service-tab-box">
+                <div class="tab-buttons col-md-3 col-sm-12 col-xs-12">
+                    <ul class="item-holder repair-menu">
+                        <li class=" active"><a href="#one" class="tab-btn" data-toggle="tab"><i class="fa fa-headphones" aria-hidden="true"></i>Desktop Repair</a></li>
+                        <li><a href="#two" class="tab-btn" data-toggle="tab"><i class="fa fa-laptop" aria-hidden="true"></i>Laptop Repair</a></li>
+                        <li><a href="#three" class="tab-btn" data-toggle="tab"><i class="fa fa-desktop" aria-hidden="true"></i>Desktop Repair</a></li>
+                        <li><a href="#four" class="tab-btn" data-toggle="tab"><i class="fa fa-mobile" aria-hidden="true"></i>iPhone Repair</a></li>
+                        <li><a href="#five" class="tab-btn" data-toggle="tab"><i class="fa fa-tablet" aria-hidden="true"></i>iPad Repair</a></li>
+                        <li><a href="#six" class="tab-btn" data-toggle="tab"><i class="fa fa-laptop" aria-hidden="true"></i>Console Repair</a></li>
+                    </ul>
+                </div>                    
+                <div class="tab-content col-md-9 col-sm-12 col-xs-12">
+                    <div class="tab active" id="one">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/1.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Smart Phone Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/2.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Tablet & iPad Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>      
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/3.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Mac & PC Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/5.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Key Board Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/6.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Electronics Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>      
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/7.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Console Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab" id="two">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/1.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Smart Phone Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/2.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Tablet & iPad Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>      
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/3.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Mac & PC Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/5.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Key Board Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/6.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Electronics Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>      
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/7.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Console Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab" id="three">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/1.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Smart Phone Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/2.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Tablet & iPad Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>      
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/3.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Mac & PC Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/5.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Key Board Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/6.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Electronics Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>      
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/7.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Console Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab" id="four">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/1.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Smart Phone Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/2.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Tablet & iPad Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>      
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/3.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Mac & PC Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/5.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Key Board Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/6.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Electronics Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>      
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/7.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Console Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab" id="five">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/1.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Smart Phone Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/2.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Tablet & iPad Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>      
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/3.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Mac & PC Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/5.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Key Board Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/6.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Electronics Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>      
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/7.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Console Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab" id="six">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/1.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Smart Phone Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/2.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Tablet & iPad Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>      
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/3.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Mac & PC Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/5.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Key Board Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/6.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Electronics Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>      
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12">
+                                <div class="item-holder">
+                                    <figure class="image-box">
+                                        <a href="service-details.html"><img src="images/about/7.jpg" alt=""></a>
+                                    </figure>
+                                    <a href="service-details.html"><h6>Console Repair</h6></a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor</p>
+                                    <div class="link-btn">
+                                        <a href="service-details.html">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+        </div>
+    </section>
+    <!--End Service Tab-->
+
+
+    
+
+
+    <div id="footer-container"></div>
+
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading footer:', error));
+    </script>
+
+
+</div>
+
+<!--End pagewrapper-->
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target=".header-top"><span class="icon fa fa-long-arrow-up"></span></div>
+
+<script src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/owl.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/mixitup.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/jquery.appear.js"></script>
+<script src="js/jquery.countTo.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/timePicker.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

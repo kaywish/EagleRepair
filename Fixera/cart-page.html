@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Fixera Template | Shoping Cart</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!--Favicon-->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link href="css/responsive.css" rel="stylesheet">
+</head>
+
+
+<body>
+<div class="page-wrapper">  
+    
+
+    <!-- .preloader -->
+    <div class="preloader"></div>
+    <!-- /.preloader -->
+
+
+    <!--Header-top-->
+    <section class="header-top">
+        <div class="container clearfix">
+            <div class="main-logo">
+                <figure>
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                </figure>
+            </div>
+            <ul class="header-info">
+                <li class="item">
+                    <i class="flaticon-time"></i>
+                    <h6>Opening Time</h6>
+                    <span>Allday 9.00 - 18.00</span>
+                </li>
+                <li class="item">
+                    <i class="flaticon-envelope"></i>
+                    <h6>Email Us</h6>
+                    <a href="#"><span>info@example.com</span></a>
+                </li>
+                <li class="item">
+                    <i class="flaticon-telephone"></i>
+                    <h6>Call Us Now</h6>
+                    <span class="phone-number">+251-235-3256</span>
+                </li>
+                <li class="item">
+                    <button class="btn-style-one">Request A Quote</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--End Header-top-->
+
+    
+    <!--Main Header-->
+    <header class="main-header sticky-header">
+        <div class="container">
+            <div class="header-area clearfix">
+                <nav class="main-menu pull-left">
+                    <div class="navbar-header">
+                        <!-- Toggle Button -->      
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>           
+                    <div class="navbar-collapse collapse clearfix">
+                        <ul class="navigation clearfix">
+                            <li><a href="index.html">Home</a></li>                          
+                            <li class="dropdown"><a href="#">services</a>
+                                <ul>
+                                    <li><a href="service.html">our services</a></li>
+                                    <li><a href="service-details.html">service details</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">pages</a>
+                                <ul>
+                                    <li><a href="about.html">about us</a></li>
+                                    <li><a href="team.html">our team</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown current"><a href="#">Store</a>
+                                <ul>
+                                    <li><a href="shop-page.html">shop page</a></li>
+                                    <li><a href="single-product.html">single product</a></li>
+                                    <li><a href="cart-page.html">shoping cart</a></li>
+                                    <li><a href="checkout.html">checkout page</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#">News</a>
+                                <ul>
+                                    <li><a href="blog.html">our blog</a></li>
+                                    <li><a href="single-blog.html">single blog</a></li>
+                                </ul>
+                            </li>                      
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>                    
+                </nav>
+                <ul class="social-links pull-right">
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--End Main Header -->
+
+
+    <!--Page Title-->
+    <section class="page-title" style="background-image:url(images/background/5.jpg);">
+        <div class="container">
+            <div class="title-text text-center">
+                <h1>Shoping Cart</h1>
+            </div>           
+        </div>
+    </section>
+    <!--End Page Title-->
+
+
+    <!--Title menu-->
+    <section class="title-menu">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">home<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                <li>Shoping Cart</li>
+            </ul>
+        </div>
+    </section>
+    <!--End Title menu-->
+
+
+    <section class="cart-section">
+        <div class="container">
+            <!--Cart Outer-->
+            <div class="cart-outer">
+                <div class="table-outer"> 
+                    <table class="cart-table"> 
+                        <thead class="cart-header">
+                            <tr>
+                                <th><h6>Your Order</h6></th>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                                <th>&nbsp;</th>
+                            </tr>
+                        </thead>               
+                        <tbody>
+                            <tr class="item">
+                                <td colspan="2" class="image-box">
+                                    <div class="column-box">
+                                        <figure class="prod-thumb"><a href="#"><img src="images/shop/11.jpg" alt=""></a></figure>
+                                        <h6>Jbl Earphone</h6>
+                                    </div>
+                                </td>
+                                <td class="qty">
+                                    <input type="number" placeholder="Qnt: 1" name="quantity">
+                                </td>
+                                <td class="sub-total">$40</td>
+                                <td class="remove"><a href="#"><i class="fa fa-times" aria-hidden="true"></i></a></td>
+                            </tr>
+                            <tr class="item">
+                                <td colspan="2" class="image-box">
+                                    <div class="column-box">
+                                        <figure class="prod-thumb"><a href="#"><img src="images/shop/12.jpg" alt=""></a></figure>
+                                        <h6>Emily Player</h6>
+                                    </div>
+                                </td>
+                                <td class="qty">
+                                    <input type="number" placeholder="Qnt: 1" name="quantity">
+                                </td>
+                                <td class="sub-total">$50</td>
+                                <td class="remove"><a href="#"><i class="fa fa-times" aria-hidden="true"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="image-box">
+                                    <div class="column-box">
+                                        <figure class="prod-thumb"><a href="#"><img src="images/shop/13.jpg" alt=""></a></figure>
+                                        <h6>iPhone 6 Plus</h6>
+                                    </div>
+                                </td>
+                                <td class="qty">
+                                    <input type="number" placeholder="Qnt: 1" name="quantity">
+                                </td>
+                                <td class="sub-total">$70</td>
+                                <td class="remove"><a href="#"><i class="fa fa-times" aria-hidden="true"></i></a></td>
+                            </tr>                       
+                        </tbody>
+                    </table>
+                </div>          
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="section-title">
+                        <h6>Coupon Code</h6>
+                    </div>
+                    <div class="apply-coupon">
+                        <p>Click on a coupon code to apply</p>
+                        <div class="default-form-area">
+                            <form method="post" action="index.html" class="subscribe-form default-form clearfix">
+                                <div class="form-group pull-left">
+                                   <input type="text" name="coupon-code" value="" placeholder="Enter Coupon Code...">
+                                </div>
+                                <div class="form-group pull-right">
+                                    <button type="button" class="btn-style-one">Apply now</button>
+                                </div>
+                            </form>                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="cart-total clearfix">
+                        <div class="section-title">        
+                            <h6>Cart Totals</h6>
+                        </div>                    
+                        <!--Totals Table-->
+                        <ul class="totals-table">
+                            <li><h6>Sub total<span>$146.00</span></h6></li>
+                            <li><h6>Order Total<span>$146.00</span></h6></li>
+                            <div class="link-btn">
+                                <a href="#" class="btn-style-one">Proceed to checkout</a>
+                            </div>
+                        </ul>                            
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </section>
+
+
+    <!--Sponsors Style-->
+    <section class="sponsors-logos">
+        <div class="your-logo wow fadeInUp">
+            <div class="container">
+                <ul class="sponsors-slider">
+                    <li class="image-holder">
+                        <div class="image-box">
+                            <a href="#"><img src="images/clients/1.png" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="image-holder">
+                        <div class="image-box">
+                            <a href="#"><img src="images/clients/2.png" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="image-holder">
+                        <div class="image-box">
+                            <a href="#"><img src="images/clients/3.png" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="image-holder">
+                        <div class="image-box">
+                            <a href="#"><img src="images/clients/4.png" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="image-holder">
+                        <div class="image-box">
+                            <a href="#"><img src="images/clients/5.png" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="image-holder">
+                        <div class="image-box">
+                            <a href="#"><img src="images/clients/1.png" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="image-holder">
+                        <div class="image-box">
+                            <a href="#"><img src="images/clients/2.png" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="image-holder">
+                        <div class="image-box">
+                            <a href="#"><img src="images/clients/3.png" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="image-holder">
+                        <div class="image-box">
+                            <a href="#"><img src="images/clients/4.png" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="image-holder">
+                        <div class="image-box">
+                            <a href="#"><img src="images/clients/5.png" alt=""></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--End Sponsors Style-->
+
+
+    <!--main-footer-->
+    <footer class="main-footer" style="background: url(images/background/1.jpg);">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-column col-md-4 col-sm-6 col-xs-12">
+                        <div class="about-widget">
+                            <div class="footer-logo">
+                                <figure>
+                                    <a href="index.html"><img src="images/logo-2.png" alt=""></a>
+                                </figure>
+                            </div>
+                            <p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercita tion ullamaboris nisi ut aliquip exea commodo con sequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                        </div>
+                    </div>
+                    <div class="footer-column col-md-2 col-sm-6 col-xs-12">
+                        <div class="service-widget">
+                            <h5>Services Link</h5>
+                            <ul class="service-link">
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Tablets & iPad Repair</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Smart Phone Repair</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Laptop & Desktp Repair</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Gadget Repair</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Console Repair</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-column col-md-3 col-sm-6 col-xs-12">
+                        <div class="contact-widget">
+                            <h5>Contact Us</h5>
+                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit sed do eiusmod.</p>
+                            <ul class="contact-link">
+                                <li class="item">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <p>1201 park street, &nbsp;Avenue, Dhanmondy, Dhaka.</p>
+                                </li>
+                                <li class="item">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <p>[88] 657 524 332</p>
+                                </li>
+                                <li class="item">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <a href="#"><p>info@fixera.com</p></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-column col-md-3 col-sm-6 col-xs-12">
+                        <div class="contact-area">
+                            <h5>NewsLetter</h5>
+                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit sed do eiusmod.</p>
+                            <div class="default-form-area">
+                                <form id="contact-form-two" name="contact_form" class="default-form" action="inc/sendmail.php" method="post" novalidate="novalidate">
+                                    <div class="form-group">
+                                        <input type="email" placeholder="Enter your email">
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn-style-one" data-loading-text="Please wait...">Subscribe</button>
+                                    </div>                                      
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container clearfix">
+                <div class="copyright-text">
+                    <p><a href="index.html">Fixera</a> &copy; 2018 All Right Reserved</p>
+                </div>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>    
+    </footer>
+    <!--End main-footer-->
+
+
+</div>
+
+<!--End pagewrapper-->
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target=".header-top"><span class="icon fa fa-long-arrow-up"></span></div>
+
+<script src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/nouislider.js"></script>
+<script src="js/owl.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/mixitup.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/jquery.appear.js"></script>
+<script src="js/jquery.countTo.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/timePicker.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
