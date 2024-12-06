@@ -452,7 +452,7 @@ ul,li{
 .main-header{
 	position:relative;
 	width:100%;
-	background: #253439;
+	background: #3b525a;
 	z-index: 9999;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
