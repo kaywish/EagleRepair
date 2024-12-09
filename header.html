@@ -25,7 +25,14 @@
                 <span class="phone-number">631-676-2707</span>
             </li>
             <li class="item">
-                <button class="btn-style-one">Request A Quote</button>
+                <!-- <a href="#contact-section" class="btn-style-one">Request A Quote</a> -->
+
+                <input 
+        type="button" 
+        value="Request A Quote" 
+        onClick="document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth', block: 'start' });" 
+        class="btn-style-one"
+    />
             </li>
         </ul>
     </div>

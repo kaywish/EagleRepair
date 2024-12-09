@@ -148,7 +148,7 @@
 		float: left;
 		margin: 0px 0px 0px 0px;
 		border-radius: 0px;
-		background: #5dca7d;
+		background: #26395a;
 	}	
 	.main-menu .navbar-header .navbar-toggle .icon-bar{
 		background:#ffffff;	
@@ -196,7 +196,7 @@
 		right:auto !important;
 		top:auto !important;
 		width:100%;
-		background: #5dca7d;
+		background: #26395a;
 		-webkit-border-radius:0px;
 		-ms-border-radius:0px;
 		-o-border-radius:0px;
@@ -229,7 +229,7 @@
 		padding:10px 10px !important;
 		line-height:22px;
 		color:#ffffff;
-		background: #5dca7d;
+		background:#26395a;
 		text-align: left;
 	}	
 	.main-menu .navbar-collapse > .navigation > li > a:hover,

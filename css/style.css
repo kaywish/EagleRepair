@@ -1621,11 +1621,13 @@ ul,li{
 	background: rgba(22, 38, 50, 0.95);
 }
 .footer-top{
-	padding-top: 67px;
-	padding-bottom: 33px;
+	
+	padding-top: 57px;
+	padding-bottom: 66px;
+	
 }
 .footer-top .footer-column {
-	margin-bottom: 5px;
+	margin-bottom: -30px;
 }
 .footer-top .footer-column h5{
 	font-size: 20px;
